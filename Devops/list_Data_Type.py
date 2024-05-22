@@ -44,3 +44,34 @@ arr.remove(3)
 print(arr)
 
 arr.remove(3)
+
+# using Pop function
+print(arr.pop(3))
+print(arr)
+
+
+# replace the elements 
+students = ['a','b','c','d', 'e']
+students[3] = 'f'
+print(students)
+
+
+students = ['a','b','c','d','e']
+students[1:4] = 'm''n''o'
+print(students)
+
+students = ['a','b','c','d','e']
+students[1:4] = 'm''n'
+print(students)
+
+# To reverse the element of the array 
+l1 = [1,2,3,4,5,6,7,8,9]
+l1.reverse()
+print(l1)
+
+# To copy the elements of the array to another variable with different Memory address
+l1 = [1,2,3,4,5,6,7,8,9]
+l1_copy = l1.copy()
+print(l1_copy)
+print(id(l1),id(l1_copy))
+
