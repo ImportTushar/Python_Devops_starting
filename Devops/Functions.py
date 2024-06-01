@@ -73,7 +73,7 @@ def outer():
         print("Hello im the Inner")
         return inner
 
-outer()
+        # outer()()
 
-outer()()
+    
 
